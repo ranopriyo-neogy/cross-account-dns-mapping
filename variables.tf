@@ -1,7 +1,7 @@
 variable "root_domain" {
     type = string
     default = ""
-    description = "(Required) The registered Route53 Domain present in Publishing Account like pivotree.engineering"
+    description = "(Required) The registered Route53 Domain present in main account"
 }
 
 variable "subdomain" {
